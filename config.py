@@ -10,7 +10,7 @@ class Config:
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluste0")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
     SESSION = os.environ.get("SESSION", "BQBGUOQAw8z3Jl48cby0DCOCk-oLZ0soHc-4wPf1Q2XhNq6XQIb4TQ24Wv583dxwAksneN_ARFUWMHegT4PoRkUI3hxVRFJiDcFtSeLgxhK87ayC7EvXOoXYqR5U-oeZa_AGyAFvzhi2RnHzMnvmx47DOZjS92xymL53nu-82GRUTYvsWUWdNjmO4CiuQIXdlohX8SYrJCzz58cAk3hYQU7mCDPrQqhxroSOPMJzoPTZMWl4B_QGmSmmtrhSCy27p9H-piR57oOLFkn5XFs0le24IPXUORyy9vuNT8kOvQnbi-aPANaZWzCrPD6txc1m2_jaerodmJV2h0bMUWVwFVhjqLVtQAAAAAGfDaevAQ")   
-    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", ""))
+    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001390161207"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "https://t.me/subscenelkforward_bot")
 
 
